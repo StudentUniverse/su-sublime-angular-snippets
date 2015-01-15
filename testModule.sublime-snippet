@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+describe('${1:${TM_FILENAME/(.+)\.spec.js/$1/}}', function(){
+    beforeEach(module('$1'));
+
+    // must use inject to run config/run of module
+    it('should be able to load', inject(function(){
+        expect(true).toBe(true);
+    }));
+
+});
+]]></content>
+    <tabTrigger>testModule</tabTrigger>
+</snippet>

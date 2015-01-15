@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @ngdoc function
+ * @name $1.${TM_FILENAME/(.+)(?:Service|Factory|Provider)\..+|.*/$1#/}$2
+ * @methodOf $1.${TM_FILENAME/(.+)(?:Service|Factory|Provider)\..+|.*/$1/}
+ *
+ * @description
+ * $4
+ *
+ * @param {$5} $6
+ * @returns {$7} $8
+ */
+]]></content>
+    <tabTrigger>ngmethod</tabTrigger>
+</snippet>

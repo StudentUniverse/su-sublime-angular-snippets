@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+describe('su$1.directives.${2:${TM_FILENAME/(.+)\.spec.js/$1/}}', function() {
+    var \$compile, \$rootScope;
+
+    beforeEach(module('su$1.directives.$2'));
+
+    beforeEach(inject(function(_\$compile_, _\$rootScope_) {
+        \$compile = _\$compile_;
+        \$rootScope = _\$rootScope_;
+    }));
+
+    it('$3', function(){
+
+    });
+
+});
+]]></content>
+    <tabTrigger>testDirective</tabTrigger>
+</snippet>

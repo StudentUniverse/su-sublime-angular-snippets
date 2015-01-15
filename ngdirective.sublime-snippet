@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @ngdoc directive
+ * @name $1.directive:${2:${TM_FILENAME/(.+)Directive\..+|.*/$1/:name}}
+ * @restrict $3
+ * @element ANY //will create a usage example combined with restrict
+${4: * @priority 1000 //The higher the priority the sooner the directive gets compiled.}
+${5: * @scope  //add this attribute if you create a scope in your directive.}
+ *
+ * @description
+ * $6
+ *
+ * @param {$7} $8
+ */
+]]></content>
+    <tabTrigger>ngdirective</tabTrigger>
+</snippet>

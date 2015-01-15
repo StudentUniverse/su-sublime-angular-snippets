@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+angular.module('su$1.factories.${2:${TM_FILENAME/(.+)Factory\..+|.*/$1/}}Factory', [
+        
+    ])
+    .factory('$2', $2Factory);
+
+/**
+ * @ngdoc service
+ * @name su$1.$2
+ *
+ * @description
+ * $3
+ */
+
+ function $2Factory(){
+    $4
+ }
+ $2Factory.\$inject = [];
+]]></content>
+    <tabTrigger>suFactory</tabTrigger>
+</snippet>

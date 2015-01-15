@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @ngdoc overview
+ * @name ${1:${TM_FILENAME/(.+)\..+|.*/$1/}}
+ *
+ * @description
+ * $2
+ */
+]]></content>
+    <tabTrigger>ngoverview</tabTrigger>
+</snippet>

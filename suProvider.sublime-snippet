@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+angular.module('su$1.providers.su${2:${TM_FILENAME/su(.+)Provider\..+|.*/$1/}}Provider', [
+    
+])
+.directive('su$2', su$2Directive);
+
+/**
+ * @ngdoc object
+ * @name su$1.su$2Provider
+ * @description
+ * $3
+ */
+
+function su$2Provider() {
+    
+    function \$get(){
+        $4
+    }
+    \$get.\$inject = [];
+
+    return {
+        \$get: \$get
+    };
+su$2Provider.inject = [];
+
+]]></content>
+    <tabTrigger>suProvider</tabTrigger>
+</snippet>

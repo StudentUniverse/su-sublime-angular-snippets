@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @ngdoc property
+ * @name $1.$2.#$3
+ * @propertyOf $1.$2
+ * @returns {$4} $5
+ */
+]]></content>
+    <tabTrigger>ngproperty</tabTrigger>
+</snippet>

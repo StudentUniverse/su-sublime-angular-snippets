@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+describe('su$1.services.${2:${TM_FILENAME/(.+)Service\.spec.js/$1/}}Service', function(){
+    var $2;
+
+    beforeEach(function(){
+        module('su$1.services.$2Service');
+
+        inject(function(_$2_){
+            $2 = _$2_;
+        });
+    });
+
+    it('should be defined', function(){
+        expect($2).toBeDefined();
+    });
+
+});
+]]></content>
+    <tabTrigger>testService</tabTrigger>
+</snippet>

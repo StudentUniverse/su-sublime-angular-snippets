@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+describe('su$1.filters.${2:${TM_FILENAME/(.+)Filter\.spec.js/$1/}}Filter', function(){
+    var filter;
+
+    beforeEach(function(){
+        module('su$1.filters.$2Filter');
+
+        inject(function(_$2Filter_){
+            filter = _$2Filter_;
+        });
+    });
+
+    it('should be defined', function(){
+        expect(filter).toBeDefined();
+    });
+
+});
+]]></content>
+    <tabTrigger>testFilter</tabTrigger>
+</snippet>

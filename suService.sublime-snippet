@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+angular.module('su$1.services.${2:${TM_FILENAME/(.+)(?:Service)\..+|.*/$1/}}Service', [
+        
+    ])
+    .service('$2', $2Service);
+
+/**
+ * @ngdoc service
+ * @name su$1.${TM_FILENAME/(.+)(?:Service|Factory|Provider)\..+|.*/$1/}
+ *
+ * @description
+ * $3
+ */
+
+ function $2Service(){
+    $4
+ }
+ $2Service.\$inject = [];
+]]></content>
+    <tabTrigger>suservice</tabTrigger>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @ngdoc filter
+ * @name $1.filter:${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}
+ * @function
+ * 
+ * @description
+ * $3
+ *
+ * @param $4
+ * @returns $5
+ */
+]]></content>
+    <tabTrigger>ngfilter</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

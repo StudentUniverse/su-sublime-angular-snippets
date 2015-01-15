@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+angular.module('su$1.constants.su$1ConstantsModule', [
+    $2
+]);
+]]></content>
+    <tabTrigger>suConstantsModule</tabTrigger>
+</snippet>

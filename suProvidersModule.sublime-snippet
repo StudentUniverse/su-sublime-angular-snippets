@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+angular.module('su$1.providers.su$1ProvidersModule', [
+    $2
+]);
+]]></content>
+    <tabTrigger>suProvidersModule</tabTrigger>
+</snippet>

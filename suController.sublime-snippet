@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+angular.module('$1.controllers.${2:${TM_FILENAME/(.+)\..+|.*/$1/}}', [
+        
+    ])
+    .controller('${2:${TM_FILENAME/(.+)\..+|.*/$1/}}', ${2:${TM_FILENAME/(.+)\..+|.*/$1/}});
+
+
+ function ${2:${TM_FILENAME/(.+)\..+|.*/$1/}}(){
+    $4
+ }
+ ${2:${TM_FILENAME/(.+)\..+|.*/$1/}}.\$inject = [];
+]]></content>
+    <tabTrigger>sucontroller</tabTrigger>
+</snippet>

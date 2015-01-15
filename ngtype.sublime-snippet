@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @ngdoc type
+ * @name $1
+ *
+ * @description
+ * $2
+ *
+ * @param {$3} $4
+ * @returns {$5} $6
+ *
+ */
+]]></content>
+    <tabTrigger>ngtype</tabTrigger>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+describe('su$1.factories.${2:${TM_FILENAME/(.+)Factory\.spec.js/$1/}}Factory', function(){
+    var $2;
+
+    beforeEach(function(){
+        module('su$1.factories.$2Factory');
+
+        inject(function(_$2_){
+            $2 = _$2_;
+        });
+    });
+
+    it('should be defined', function(){
+        expect($2).toBeDefined();
+    });
+
+});
+]]></content>
+    <tabTrigger>testFactory</tabTrigger>
+</snippet>

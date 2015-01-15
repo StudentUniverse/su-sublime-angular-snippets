@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+describe('su$1.controllers.${2:${TM_FILENAME/(.+)\.spec.js/$1/}}', function(){
+    var scope, ctrl;
+
+    beforeEach(module('su$1.controllers.$2'));
+
+    beforeEach(inject(function(\$rootScope, \$controller) {
+        scope = \$rootScope.\$new();
+        ctrl = \$controller('$2', {
+            \$scope: scope
+        });
+    }));
+
+    it('$2 should be defined', function() {
+        expect(ctrl).toBeDefined();
+    });
+});
+]]></content>
+    <tabTrigger>testCtrl</tabTrigger>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @ngdoc service
+ * @name $1.${TM_FILENAME/(.+)(?:Service|Factory|Provider)\..+|.*/$1/}
+ *
+ * @description
+ * $2
+ */
+]]></content>
+    <tabTrigger>ngservice</tabTrigger>
+</snippet>

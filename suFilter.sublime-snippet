@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+angular.module('su$1.filters.${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}Filter', [
+        $3
+    ])
+    .filter('${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}', ${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}Filter);
+
+/**
+ * @ngdoc filter
+ * @name su$1.filter:${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}
+ * @function
+ *
+ * @description
+ * 
+ */
+
+function ${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}Filter() {
+    return function() {
+        $4
+    };
+}
+${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}Filter.\$inject = [];
+
+]]></content>
+    <tabTrigger>sufilter</tabTrigger>
+</snippet>

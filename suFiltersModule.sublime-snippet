@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+angular.module('su$1.filters.su$1FiltersModule', [
+    $2
+]);
+]]></content>
+    <tabTrigger>suFiltersModule</tabTrigger>
+</snippet>
