@@ -16,12 +16,12 @@ angular.module('su$1.filters.${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}Filte
  * 
  */
 
+${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}Filter.\$inject = [];
 function ${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}Filter() {
     return function() {
         $4
     };
 }
-${2:${TM_FILENAME/(.+)Filter\..+|.*/$1/:name}}Filter.\$inject = [];
 
 ]]></content>
     <tabTrigger>sufilter</tabTrigger>

@@ -15,10 +15,10 @@ angular.module('su$1.factories.${2:${TM_FILENAME/(.+)Factory\..+|.*/$1/}}Factory
  * $3
  */
 
+ $2Factory.\$inject = [];
  function $2Factory(){
     $4
  }
- $2Factory.\$inject = [];
 ]]></content>
     <tabTrigger>suFactory</tabTrigger>
 </snippet>

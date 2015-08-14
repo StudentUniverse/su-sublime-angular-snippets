@@ -15,10 +15,10 @@ angular.module('su$1.services.${2:${TM_FILENAME/(.+)(?:Service)\..+|.*/$1/}}Serv
  * $3
  */
 
+ $2Service.\$inject = [];
  function $2Service(){
     $4
  }
- $2Service.\$inject = [];
 ]]></content>
     <tabTrigger>suservice</tabTrigger>
 </snippet>

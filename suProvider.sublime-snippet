@@ -14,6 +14,7 @@ angular.module('su$1.providers.su${2:${TM_FILENAME/su(.+)Provider\..+|.*/$1/}}Pr
  * $3
  */
 
+su$2Provider.inject = [];
 function su$2Provider() {
     
     function \$get(){
@@ -24,7 +25,6 @@ function su$2Provider() {
     return {
         \$get: \$get
     };
-su$2Provider.inject = [];
 
 ]]></content>
     <tabTrigger>suProvider</tabTrigger>

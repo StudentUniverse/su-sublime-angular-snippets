@@ -16,12 +16,12 @@ angular.module('su$1.directives.su${2:${TM_FILENAME/su(.+)Directive\..+|.*/$1/}}
  * 
  */
 
+su${2:${TM_FILENAME/su(.+)Directive\..+|.*/$1/}}Directive.inject = [];
 function su${2:${TM_FILENAME/su(.+)Directive\..+|.*/$1/}}Directive() {
     return {
         $3
     };
 }
-su${2:${TM_FILENAME/su(.+)Directive\..+|.*/$1/}}Directive.inject = [];
 
 ]]></content>
     <tabTrigger>sudirective</tabTrigger>
